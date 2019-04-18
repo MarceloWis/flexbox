@@ -1,0 +1,42 @@
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+
+
+.box {
+    width: 150px;
+    height: 60px;
+    background: #f00;
+    margin: 5px;
+    /* flex-grow => permite aumentar o tamanho da div */
+    /* flex-shrink => Permite diminuir o tamanho da div */
+    /* "flex" é a soma de flex-grow e flex-shrink */
+    /* flex: 1; */
+
+}
+
+.red {
+    background: #f00;
+    order: 1
+}
+
+.green {
+    background: green;
+    order: 2
+}
+
+.blue {
+    background: blue;
+    order: 0
+}
